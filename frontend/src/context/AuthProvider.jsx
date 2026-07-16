@@ -1,8 +1,9 @@
-import { createcontext, useState } from "react";
+import { useState } from "react";
 import api from "../services/api";
+import { AuthContext } from "./authContext";
 
-export function AuthProvider({ children }) {
-    const AuthContext = createcontext();
+export default function AuthProvider({ children }) {
+    
     const [user, setUser] = useState(null);
 
     const login = async (username, password) => {

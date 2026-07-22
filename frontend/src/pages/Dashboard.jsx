@@ -27,21 +27,21 @@ function Dashboard() {
 
                 <StatCard
                     title="Tenants"
-                    value="48"
+                    value="0"
                     icon={<FaUsers />}
                     color="text-blue-600"
                 />
 
                 <StatCard
                     title="Occupied Units"
-                    value="36"
+                    value="0"
                     icon={<FaBuilding />}
                     color="text-purple-600"
                 />
 
                 <StatCard
                     title="Vacant Units"
-                    value="12"
+                    value="0"
                     icon={<FaHome />}
                     color="text-red-600"
                 />
